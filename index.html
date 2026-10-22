@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -9,20 +9,35 @@
 </head>
 
 <body>
+
+    <nav>
+        <div class="logo">
+            <img src="./img/logo.png" alt="Logo" width="50px">
+
+            <img src="./img/lettering.png" alt="Firma Alexa" width="90px">
+        </div>
+        <div class="menu">
+            <a href="#acerca-de-mi" class="menu-link">Acerca de mí</a>
+            <a href="#experiencia" class="menu-link">Experiencia</a>
+            <a href="#proyectos" class="menu-link">Proyectos</a>
+        </div>
+    </nav>
+
     <header>
-        <h1> Alexa Bedoya Rojas </h1>
-        <h2> Estudiante de desarrollo de software </h2>
-        <p> Ingeniera de sistemas en proceso con experiencia muy básica en desarrollo de aplicaciones </p>
-        <nav>
-            <a href="#acerca-de-mi">Acerca de mí</a>
-            <a href="#experiencia">Experiencia</a>
-            <a href="#proyectos">Proyectos</a>
-        </nav>
+        <div class="imagen">
+            <img src="./img/imagen1.png" alt="Persona" width="200px" align="center">
+        </div>
+        <div class="informacion">
+            <h1> Alexa Bedoya Rojas </h1>
+            <h3> Estudiante de desarrollo de software </h3>
+            <p> Ingeniera de sistemas en proceso con experiencia muy básica en desarrollo de aplicaciones :D.</p>
+        </div>
     </header>
+
 
     <main>
         <section id="acerca-de-mi">
-            <h2> Acerca de mí </h2>
+            <h2> *Acerca de mí.* </h2>
             <p> Mi nombre es Alexa, tengo 20 años y estudio actualmente Ingeniería de sistemas en el ITM. Me considero
                 una persona
                 muy enérgica y sociable, me gusta mucho jugar y compartir con mis amigos. Siempre estoy dispuesta a
@@ -32,8 +47,10 @@
             </p>
         </section>
 
+        <hr>
+
         <section id="experiencia">
-            <h2>Experiencia profesional</h2>
+            <h2> *Experiencia profesional.* </h2>
             <p><em>Experiencia simulada para una actividad académica.</em></p>
             <article>
                 <h3>Desarrolladora Full Stack Junior</h3>
@@ -47,41 +64,29 @@
             </article>
         </section>
 
+        <hr>
+
         <section id="proyectos">
-            <h2>Proyectos</h2>
-            <table border="3" align="center" style="width: 960px;">
+            <h2>*Proyectos*</h2>
+            <table align="center" style="width: 960px;">
                 <tr> <!-- Fila -->
-                    <td> 
-                        <h3> Proyecto 1 </h3>
-                        <img
-                            src="https://img.magnific.com/vector-gratis/cute-cat-hacker-operando-laptop-cartoon-vector-icono-ilustracion-icono-tecnologia-animal-aislado_138676-6824.jpg?semt=ais_hybrid&w=740&q=80"
-                            alt="Gato programador" width="400px" align="center"> <br><br>
-                        <center> <button> <a href="https://alexxabr19.github.io/proyecto-riwi-1/" target="_blank"
-                                    style="text-decoration: none; color: rgb(95, 2, 18);"> Ver Proyecto </a></button>
+                    <td>
+                        <h3 class="proyecto-titulo"> Proyecto 1 </h3>
+                        <p> Aquí encontrarás mi hoja de vida. </p>
+                        <img class="hoja_de_vida" src="./img/hojaDeVida.png"
+                            alt="Hoja de vida" align="center"> <br><br>
+                        <center> <button> <a href="https://alexxabr-19.github.io/hoja_de_vida/" target="_blank"
+                                    style="text-decoration: none; color: rgb(233, 227, 229);"> Ver en vivo </a></button>
                         </center>
                     </td> <!-- Columna -->
-                    <td> 
-                        <h3> Proyecto 2 </h3>
-                        <img
-                            src="https://img.magnific.com/vector-gratis/cute-cat-hacker-operando-laptop-cartoon-vector-icono-ilustracion-icono-tecnologia-animal-aislado_138676-6824.jpg?semt=ais_hybrid&w=740&q=80"
-                            alt="Gato programador" width="400px" align="center"> <br><br>
-                        <center> <button> <a href="https://alexxabr19.github.io/proyecto-riwi-2/" target="_blank"
-                                    style="text-decoration: none; color: rgb(95, 2, 18);"> Ver Proyecto </a></button>
+                    <td>
+                        <h3 class="proyecto-titulo"> Proyecto 2 </h3>
+                        <p> Aquí encontrarás un proyecto de eventos. </p>
+                        <img class="eventos" src="./img/eventos.png"
+                            alt="Eventos" align="center"> <br><br>
+                        <center> <button> <a href="https://alexxabr-19.github.io/eventos/" target="_blank"
+                                    style="text-decoration: none; color: rgb(235, 231, 231);"> Ver en vivo </a></button>
                         </center>
-                    </td>
-                    <td> 
-                        <h3> Proyecto 3 </h3>
-                        <img
-                            src="https://img.magnific.com/vector-gratis/cute-cat-hacker-operando-laptop-cartoon-vector-icono-ilustracion-icono-tecnologia-animal-aislado_138676-6824.jpg?semt=ais_hybrid&w=740&q=80"
-                            alt="Gato programador" width="400px" align="center"> <br><br>
-                        <center> <button> <a href="https://alexxabr19.github.io/proyecto-riwi-3/" target="_blank"
-                                    style="text-decoration: none; color: rgb(95, 2, 18);"> Ver Proyecto </a></button>
-                        </center>
-                    </td>
-                    <td> <img
-                            src="https://img.magnific.com/vector-gratis/cute-cat-hacker-operando-laptop-cartoon-vector-icono-ilustracion-icono-tecnologia-animal-aislado_138676-6824.jpg?semt=ais_hybrid&w=740&q=80"
-                            alt="Gato programador" width="400px" align="center"> <br><br>
-                        <center> <button> Proyecto 4 </button> </center>
                     </td>
                 </tr>
             </table>

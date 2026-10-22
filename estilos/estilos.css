@@ -1,25 +1,110 @@
-header{
-    background-color: #03ebfc;
-    padding: 20px;
-    text-align: center;
+body {
+    background-color: #a17b5d;
 }
 
-nav{
-    background-color: #e450f1;
-    padding: 20px;
+header {
     text-align: center;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 
-main{
-    background-color: #f1e450;
+.informacion {
+    margin-top: 25px;
+}
+
+nav {
+    background-color: #4b331d;
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    background-color: #d6d3d3;
+    color: #3B2A20;
+}
+
+hr{
+    border-color: #3B2A20;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    margin-top: 10px;
+}
+
+.menu-link {
+    text-decoration: none;
+    color: #301a1a;
+    font-weight: bold;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+button {
+    background-color: #472f1a;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+main {
     padding: 20px;
     text-align: center;
 }
 
-footer{
-    background-color: #1559d8;
+.eventos{
+    width: 400px;
+    height: 338px;
+}
+
+.hoja_de_vida{
+    width: 400px;
+}
+
+.proyecto-titulo{
+    font-size: 25px;
+    font-weight: bold;
+    color: #000000;
+}
+
+table{
+    border-color: #301a1a;
+    border-width: 4px;
+    border-style: solid;
+    border-radius: 10px;
+    background-color: #e9ccc3;
+}
+
+#acerca-de-mi{
+    background-color: #85614c;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+#experiencia{
+    background-color: #aa8c7b;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+#proyectos{
+    background-color: #85614c;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+footer {
+    color: #fdfdfd;
     padding: 20px;
     text-align: center;
 }
