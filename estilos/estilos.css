@@ -1,0 +1,25 @@
+header{
+    background-color: #03ebfc;
+    padding: 20px;
+    text-align: center;
+}
+
+nav{
+    background-color: #e450f1;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+main{
+    background-color: #f1e450;
+    padding: 20px;
+    text-align: center;
+}
+
+footer{
+    background-color: #1559d8;
+    padding: 20px;
+    text-align: center;
+}
